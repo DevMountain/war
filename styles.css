@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+html, body, div, ul, li {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	color: #4d4d4d;
+	color: rgb(77, 77, 77);
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	padding-top: 50px;
+}
+
+h1 {
+	width: 100%;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.3);
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+	box-shadow: 2px 10px 25px #888888;
+	min-height: 79px;
+	margin: 0 auto;
+	width: 20%;
+	height: 164px;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.btn {
+	margin: 0 auto;
+	margin-top: 25px;
+}

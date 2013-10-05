@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<div class='container'>
+		<h1>Opponent's Card</h1>
+		<div id="opp-card" class="card-container">
+		</div>
+		<h1>My Card</h1>
+		<div id="my-card" class="card-container">
+		</div>
+		<div class="row row-centered">
+			<button class="btn btn-lg btn-warning">Play!</button>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
+	<script type="html/template" id="card-template">
+		<h2>{%= value %}</h2>
+		<h4>{%= suit %}</h4>
+	</script>
+</body>
+
+</html>
