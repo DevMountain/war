@@ -36,6 +36,17 @@ h1 {
 	height: 164px;
 }
 
+.card-container h2, .card-container h4 {
+	text-align: center;
+}
+.card-container h2 {
+	padding-top: 38px;
+	font-size: 38px;
+}
+.card-container h4 {
+	font-size: 22px;
+}
+
 .row-centered {
 	text-align: center;
 }
