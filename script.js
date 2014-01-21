@@ -95,9 +95,9 @@ $(document).ready(function() {
 		if (cards_player_1.length) {
 			var card_1 = cards_player_1[0];
 			var card_2 = cards_player_2[0];
-			$("#opp-card").html(card_1.number+" "+card_1.suit);
+			$("#opp-card").html(convert_value_to_string(card_1.number)+" "+card_1.suit);
 			$("#opp-card-count").html(cards_player_1.length);
-			$("#my-card").html(card_2.number+" "+card_2.suit);
+			$("#my-card").html(convert_value_to_string(card_2.number)+" "+card_2.suit);
 			$("#my-card-count").html(cards_player_2.length);
 			
 		}
