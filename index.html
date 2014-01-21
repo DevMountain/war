@@ -9,10 +9,18 @@
 
 	<div class='container'>
 		<h1>Opponent's Card</h1>
-		<div id="opp-card" class="card-container">
+		<div class="card-block">
+			<div class="card-count">Cards remaining: <span id="opp-card-count"></span></div>
+			<div class="card-container">
+				<h2 id="opp-card"></h2>
+			</div>
 		</div>
 		<h1>My Card</h1>
-		<div id="my-card" class="card-container">
+		<div class="card-block">
+			<div class="card-count">Cards remaining: <span id="my-card-count"></span></div>
+			<div class="card-container">
+				<h2 id="my-card"></h2>
+			</div>
 		</div>
 		<div class="row row-centered">
 			<button class="btn btn-lg btn-warning">Play!</button>
@@ -24,10 +32,6 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src='script.js'></script>
-	<script type="text/template" id="card-template">
-		<h2><%= str_value %></h2>
-		<h4><%= suit %></h4>
-	</script>
 </body>
 
 </html>
