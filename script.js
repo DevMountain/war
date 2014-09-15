@@ -30,7 +30,9 @@ $(document).ready(function() {
 	
 	//what does this do?
 	var shuffle = function(array) { 
-	var copy = [], n = array.length, i; 
+		var copy = [];
+		var n = array.length; 
+		var i; 
 		while (n) { i = Math.floor(Math.random() * array.length);  
 			if (i in array) { 
 		 		copy.push(array[i]); 
