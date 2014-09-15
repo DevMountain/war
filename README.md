@@ -5,7 +5,6 @@ Start of the "war" project (algorithms)
 
 ##Step 1: Shuffle the deck
 Take a look at script.js. Examine what the two for loops do in conjunction with each other. What will the resulting array (`deck`) look like?
-* After the deck is created and filled, randomize it. (hint: there is a quick function in underscore that will help you accomplish this).
 
 ##Step 2: Deal the cards 
 When the page loads the cards should be divided equally into each player's pile. 

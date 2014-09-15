@@ -28,8 +28,18 @@ $(document).ready(function() {
 		}
 	}
 	
-	//shuffle the deck
-	
+	//what does this do?
+	var shuffle = function(array) { 
+	var copy = [], n = array.length, i; 
+		while (n) { i = Math.floor(Math.random() * array.length);  
+			if (i in array) { 
+		 		copy.push(array[i]); 
+		 		delete array[i]; 
+		 		n--; 
+		 	} 
+		} 
+		return copy; 
+	}
 	
 	var cards_player_1 = [];
 	var cards_player_2 = [];
