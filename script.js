@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	//what does this do?
-	function convert_value_to_string(value) {
+	var convert_value_to_string = function(value) {
 		if (value > 10) {
 			switch (value) {
 				case 11:
@@ -43,26 +43,30 @@ $(document).ready(function() {
 		return copy; 
 	}
 	
+	//Now call the shuffle function and save the result of what shuffle returns into your deck variable
+	
 	var cards_player_1 = [];
 	var cards_player_2 = [];
-	//divide out the cards into the two arrays
+	// write a function called deal that will evently divide the deck up between the two players
 	
 	
 	//create a function (algorithm) called "war" that takes two cards as parameters, compares them and returns a winner. A tie should return false.
-	function war() {
+	var war = function(){
+	
+		
 	}
 	
 	
 	//create a play function
 		//compare the cards
 		//give the winner both cards (at end of deck)
-	function play() {
+	var play = function(){
 		
 		//this function (defined below) will continue to the next turn
 		advance();
 	}
 	
-	function advance() {
+	var advance = function(){
 		//take the top two cards and display them
 		if (cards_player_1.length) {
 			var card_1 = cards_player_1[0];
