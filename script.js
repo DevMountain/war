@@ -56,16 +56,6 @@ $(document).ready(function() {
 		
 	}
 	
-	
-	//create a play function
-		//compare the cards
-		//give the winner both cards (at end of deck)
-	var play = function(){
-		
-		//this function (defined below) will continue to the next turn
-		advance();
-	}
-	
 	var advance = function(){
 		//take the top two cards and display them
 		if (cards_player_1.length) {
@@ -78,6 +68,18 @@ $(document).ready(function() {
 			
 		}
 	}
+	
+	
+	//create a play function
+		//compare the cards
+		//give the winner both cards (at end of deck)
+	var play = function(){
+		
+		//this function (defined below) will continue to the next turn
+		advance();
+	}
+	
+
 	advance();
 	
 	$(".btn").click(function() {
