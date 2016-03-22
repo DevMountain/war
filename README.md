@@ -22,3 +22,7 @@ When the user clicks the 'Play!' button, your function should play the current p
 
 ##Step 5 (Black Diamond): Account for 'tied' cards
 If there is a tie, the play function should then check the 4th cards from each player's deck and determine the winner, who gets all of the previous cards.
+
+## Copyright
+
+© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
